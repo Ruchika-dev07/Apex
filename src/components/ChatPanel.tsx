@@ -10,7 +10,7 @@ interface ChatPanelProps {
   initialMessage?: string;
 }
 
-const GEMINI_API_KEY = "AQ.Ab8RN6INWEDIoWmQITHJyBpzLeaY3pDiGomusrAbtjJ24ZEEpw";
+const GEMINI_API_KEY = "AQ.Ab8RN6K3eklYW6iV6LgZ6x42BhxjkuJx_pS9bqLhd7CglcAyXw";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 const SYSTEM_PROMPT =
