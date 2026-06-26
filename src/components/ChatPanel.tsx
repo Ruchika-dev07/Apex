@@ -11,7 +11,7 @@ interface ChatPanelProps {
 }
 
 const GEMINI_API_KEY = "AQ.Ab8RN6INWEDIoWmQITHJyBpzLeaY3pDiGomusrAbtjJ24ZEEpw";
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 const SYSTEM_PROMPT =
   "You are Apex, Abu Dhabi city intelligence advisor. You know all 20 districts. Always cite district names and data. Structure answers as: 1) Direct answer 2) Key signals 3) Recommended action";
